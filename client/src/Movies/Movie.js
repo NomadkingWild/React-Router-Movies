@@ -3,10 +3,10 @@ import axios from 'axios';
 import {useParams, useRouteMatch} from 'react-router-dom';
 const Movie = (props) => {
   const [movie, setMovie] = useState();
-  const {movies} = props
+  // const {movies} = props
   const {id}= useParams();
   const {url} = useRouteMatch();
-  console.log(movies)
+  // console.log(movies)
   console.log(id)
   console.log(url)
   let idy = url.substring(url.lastIndexOf('/') + 1);

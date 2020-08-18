@@ -1,7 +1,6 @@
 import React from 'react';
 import {useHistory, Link} from 'react-router-dom';
 const MovieList = props => {
-  
   return (
     <div className="movie-list">
       {props.movies.map(movie => (
